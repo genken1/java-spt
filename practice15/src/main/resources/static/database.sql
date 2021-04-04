@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS products
+(
+    id    SERIAL NOT NULL PRIMARY KEY ,
+    name  VARCHAR(256) NOT NULL ,
+    price INTEGER
+    );
+CREATE TABLE IF NOT EXISTS markets
+(
+    id    SERIAL NOT NULL PRIMARY KEY ,
+    name  VARCHAR(256) NOT NULL ,
+    address VARCHAR(256) NOT NULL
+    );
